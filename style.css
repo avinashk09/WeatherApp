@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Open+Sans&display=swap');
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:active,
+*:hover,
+*:focus
+{
+    outline: 0 ;
+    outline-offset:  0; 
+}
+
+a,
+a:hover
+{
+    text-decoration: none;
+}
+a,
+a:hover
+{
+    color: var(--primary-color);
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+ .navbar {
+  font-family: 'Mulish', sans-serif ;
+  font-family: 'Open Sans', sans-serif;
+    height: 50px;  
+  }
+  
+  
+/*==== Variable DFefine===*/
+:root{
+    --primary-color:rgb(23, 113, 192);
+    --secondary-color: black;
+    --tertiary-color:#FFF5F5;
+    --primary-font:'Mulish', sans-serif;
+    --secondary-font:'Open Sans', sans-serif;
+}
+.btn-outline-success {
+    background-color:white;
+    border:2px rgb(23, 113, 192) ;
+    color: black; /* Optionally, you can also change the text color to make it more visible */
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    font-weight: 550;
+  }
+  body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  
+  
+
+  
+  
+  
